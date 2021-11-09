@@ -1,0 +1,87 @@
+body {
+  font: 14px "Nunito", sans-serif;
+  background-image: linear-gradient(
+    45deg,
+    #ff9a9e 0%,
+    #fad0c4 99%,
+    #fad0c4 100%
+  );
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.container {
+  padding-top: 50px;
+  overflow: hidden;
+}
+.col-md-6 {
+  background: #010141;
+  box-shadow: 1px 1px 1px 1px rgb(105, 105, 105);
+  padding: 1rem;
+  margin-bottom: 20px;
+}
+
+.strike {
+  text-decoration: line-through #f75358;
+  color: #01012b;
+}
+.todo {
+  background-color: #ddd;
+  margin: 10px 10px;
+  border-radius: 5px;
+  font-size: 2rem;
+  color: #01012b;
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+}
+.todo-task {
+  margin-left: 7px;
+}
+.todo1 {
+  border-radius: 5px;
+  position: relative;
+  word-break: break-word;
+
+  /* justify-content: space-between; */
+}
+.fa-trash {
+  color: #f75358;
+  cursor: pointer;
+}
+.today h4 {
+  color: #f75358;
+  text-align: center;
+}
+.today h1 {
+  color: #fff;
+  text-align: center;
+}
+
+.hidden {
+  display: none;
+}
+.Add {
+  cursor: pointer;
+  font-size: 20px;
+  float: right;
+  top: 9px;
+  right: 10px;
+  position: absolute;
+}
+.button {
+  display: inline-block;
+  padding: 6px 12px;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: 600;
+  text-align: center;
+  touch-action: manipulation;
+  cursor: pointer;
+  background-color: #fbc4bc;
+  border-radius: 4px;
+  color: #01012b;
+  border: none;
+}
